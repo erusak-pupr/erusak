@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Informasi publik pendataan kondisi bangunan gedung.">
+  <title>Pendataan Kondisi Bangunan Gedung</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <p class="eyebrow">INFORMASI PUBLIK · TEMPLATE</p>
+      <h1>Pendataan Kondisi Bangunan Gedung</h1>
+      <p class="subtitle">Ringkasan informasi bangunan yang telah disetujui untuk ditampilkan kepada publik.</p>
+      <div class="notice">Data di halaman ini hanya berasal dari rekap publik yang dipilih dan diperiksa petugas. Data internal tidak ditampilkan.</div>
+    </div>
+  </header>
+  <main class="container">
+    <section class="stats" aria-label="Ringkasan data">
+      <article class="stat"><span>Total data publik</span><strong id="total">—</strong></article>
+      <article class="stat"><span>Perlu tindak lanjut</span><strong id="followup">—</strong></article>
+      <article class="stat"><span>Terakhir diperbarui</span><strong id="updated">—</strong></article>
+    </section>
+    <section class="panel">
+      <div class="section-head">
+        <div><h2>Daftar bangunan</h2><p>Hanya data yang telah disetujui untuk publikasi.</p></div>
+        <button id="reload" type="button">Muat ulang</button>
+      </div>
+      <div class="filters">
+        <label> Cari <input id="search" type="search" placeholder="Nama bangunan atau kelurahan"></label>
+        <label>Kecamatan <select id="district"><option value="">Semua kecamatan</option></select></label>
+        <label>Status <select id="status"><option value="">Semua status</option></select></label>
+      </div>
+      <div id="message" class="message" role="status">Website siap. Hubungkan CSV publik pada file config.js.</div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Nama bangunan</th><th>Lokasi</th><th>Status ringkas</th><th>Tanggal data</th><th>Dokumentasi</th></tr></thead>
+          <tbody id="rows"><tr><td colspan="5">Belum ada data publik yang dihubungkan.</td></tr></tbody>
+        </table>
+      </div>
+      <p class="footnote">Informasi ini merupakan ringkasan publik, bukan pengganti laporan teknis atau keputusan pejabat berwenang.</p>
+    </section>
+    <section class="panel public-info">
+      <h2>Informasi dan kontak</h2>
+      <p>Untuk koreksi informasi publik, hubungi kanal resmi instansi terkait.</p>
+      <p class="muted">Ganti teks ini dengan informasi kontak resmi setelah mendapat persetujuan instansi.</p>
+    </section>
+  </main>
+  <footer><div class="container">Template website statis · Jangan masukkan data rahasia atau dokumen internal di halaman publik.</div></footer>
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+Urutan,Pertanyaan,Tipe jawaban,Catatan
+1,ID bangunan,Jawaban singkat,Nomor unik yang tidak memuat data pribadi
+2,Nama bangunan,Jawaban singkat,Sesuai nomenklatur aset
+3,Jenis bangunan,Dropdown,Sekolah/puskesmas/kantor/lainnya
+4,Kecamatan,Dropdown,Isi daftar kecamatan resmi
+5,Kelurahan,Dropdown,Isi daftar kelurahan resmi
+6,Alamat atau lokasi rinci,Jawaban singkat,Internal saja; jangan salin ke sheet publik tanpa persetujuan
+7,Tanggal survei,Tanggal,
+8,Nama/kode petugas,Jawaban singkat,Internal saja
+9,Kondisi struktur,Dropdown,Baik/rusak ringan/rusak sedang/rusak berat/perlu pemeriksaan lanjutan
+10,Kondisi atap,Dropdown,Baik/rusak ringan/rusak sedang/rusak berat/perlu pemeriksaan lanjutan
+11,Kondisi dinding,Dropdown,Baik/rusak ringan/rusak sedang/rusak berat/perlu pemeriksaan lanjutan
+12,Kondisi lantai dan plafon,Dropdown,Baik/rusak ringan/rusak sedang/rusak berat/perlu pemeriksaan lanjutan
+13,Persentase kerusakan,Angka,Diisi berdasarkan metode penilaian resmi yang berlaku
+14,Rekomendasi teknis,Paragraf,Internal; perlu pemeriksaan/validasi pejabat berwenang
+15,Tautan dokumentasi foto,Jawaban singkat,Pastikan izin akses sesuai kebijakan
+16,Status verifikasi,Dropdown,Draf/perlu verifikasi/terverifikasi/disetujui untuk publikasi
+17,Catatan,Paragraf,Internal; jangan salin ke publik secara otomatis
